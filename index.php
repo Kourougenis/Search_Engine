@@ -15,9 +15,12 @@
 <body>
     <button id="darkToggle" class="dark-toggle">🌙 Dark</button>
 
-    <h1 style="font-size: 41px;">Search Engine</h1>
+    <header class="site-header">
+        <h1><a href="search.php" style="text-decoration:none; color:inherit;">Search Engine</a></h1>
+        <p class="tagline">Fast and intelligent content search</p>
+    </header>
 
-    <div style="position: relative; max-width: 400px; margin-left: 200px;">
+    <div style="position: relative; width: 800px;">
         <form action="search.php" method="get" autocomplete="off">
             <input 
                 type="text" 
