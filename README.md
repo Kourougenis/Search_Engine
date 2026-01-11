@@ -57,7 +57,7 @@ You can test the project live on the production server (InfinityFree):
 To run this project on your local machine (e.g., using XAMPP, WAMP, or Docker), follow these steps:
 
 <h3>1. Clone the Repository</h3>
-git clone https://github.com/YOUR_USERNAME/search-engine.git cd search-engine
+git clone https://github.com/Kourougenis/Search_Engine.git cd Search_Engine
 
 <h3>2. Database Setup</h3>
 Open phpMyAdmin (usually http://localhost/phpmyadmin).
