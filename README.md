@@ -6,21 +6,21 @@ A full-stack Search Engine built from scratch using PHP and MySQL. This project 
 <details open> <summary><strong> Project Screenshots (Click to collapse/expand)</strong></summary>
 
 
-###1. Search Interface (Dark Mode)
+<h3>1. Search Interface (Dark Mode)</h3>
 
 
 <img src="./screenshots/home.PNG" alt="Search Home Page" width="700">
 
 
 
-###2. Search Results with Highlighting
+<h3>2. Search Results with Highlighting</h3>
 
 
 <img src="./screenshots/results.PNG" alt="Search Results" width="700">
 
 
 
-###3. Admin Analytics Panel
+<h3>3. Admin Analytics Panel</h3>
 
 
 <img src="./screenshots/admin.PNG" alt="Admin Dashboard" width="700">
@@ -56,17 +56,17 @@ You can test the project live on the production server (InfinityFree):
 ## Installation (Run Locally)
 To run this project on your local machine (e.g., using XAMPP, WAMP, or Docker), follow these steps:
 
-###1. Clone the Repository
+<h3>1. Clone the Repository</h3>
 git clone https://github.com/YOUR_USERNAME/search-engine.git cd search-engine
 
-###2. Database Setup
+<h3>2. Database Setup</h3>
 Open phpMyAdmin (usually http://localhost/phpmyadmin).
 
 Create a new database named search_engine.
 
 Import the provided database_schema_for_search_engine.sql file located in the root directory.
 
-###3. Configuration
+<h3>3. Configuration</h3>
 Open the config.php file.
 
 Ensure the database credentials match your local setup:
@@ -77,7 +77,7 @@ Set the environment to development if needed:
 
 define('APP_ENV', 'development');
 
-###4. Run the Crawler (Optional)
+<h3>4. Run the Crawler (Optional)</h3>
 The provided database is pre-filled with indexed pages, so you can start searching immediately by visiting: http://localhost/search-engine/search.php
 
 However, if you want to index new content or expand the database:
