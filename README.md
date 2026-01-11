@@ -53,6 +53,8 @@ You can test the project live on the production server (InfinityFree):
 
 ## Admin Panel: https://aggelos.infinityfree.me/search-engine/admin.php
 
+**Admin Panel Login Password:** admin123
+
 ## Installation (Run Locally)
 To run this project on your local machine (e.g., using XAMPP, WAMP, or Docker), follow these steps:
 
@@ -77,14 +79,20 @@ Set the environment to development if needed:
 
 define('APP_ENV', 'development');
 
-<h3>4. Run the Crawler (Optional)</h3>
-The provided database is pre-filled with indexed pages, so you can start searching immediately by visiting: http://localhost/Search_Engine/search.php
+<h3>4. Start the Application</h3>
+The provided database is pre-filled with indexed pages, so you can use the application immediately.
 
-However, if you want to index new content or expand the database:
+## Main Interfaces:
 
-Full Crawler: Visit http://localhost/Search_Engine/crawler_full.php to start the automated bot.
+##🔎︎ Search Engine: http://localhost/Search_Engine/search.php
 
-Single Page: Visit http://localhost/Search_Engine/crawler.php?url=https://el.wikipedia.org/wiki/Programmer to index a specific URL manually.
+##⚙️ Admin Panel: http://localhost/Search_Engine/admin.php (Password: admin123)
+
+##🕷️ Crawler Tools (Optional): If you want to index new content or expand the database:
+
+## Full Crawler: Visit http://localhost/Search_Engine/crawler_full.php to start the automated bot.
+
+## Single Page: Visit http://localhost/Search_Engine/crawler.php?url=https://el.wikipedia.org/wiki/Programmer to index a specific URL manually.
 
 ## Project Structure
 search.php - Main search interface and logic.
