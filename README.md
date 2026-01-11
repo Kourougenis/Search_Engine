@@ -9,21 +9,21 @@ A full-stack Search Engine built from scratch using PHP and MySQL. This project 
 ###1. Search Interface (Dark Mode)
 
 
-<img src="./screenshots/home.png" alt="Search Home Page" width="700">
+<img src="./screenshots/home.PNG" alt="Search Home Page" width="700">
 
 
 
 ###2. Search Results with Highlighting
 
 
-<img src="./screenshots/results.png" alt="Search Results" width="700">
+<img src="./screenshots/results.PNG" alt="Search Results" width="700">
 
 
 
 ###3. Admin Analytics Panel
 
 
-<img src="./screenshots/admin.png" alt="Admin Dashboard" width="700">
+<img src="./screenshots/admin.PNG" alt="Admin Dashboard" width="700">
 
 </details>
 
