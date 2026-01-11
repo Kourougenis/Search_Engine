@@ -78,13 +78,13 @@ Set the environment to development if needed:
 define('APP_ENV', 'development');
 
 <h3>4. Run the Crawler (Optional)</h3>
-The provided database is pre-filled with indexed pages, so you can start searching immediately by visiting: http://localhost/search-engine/search.php
+The provided database is pre-filled with indexed pages, so you can start searching immediately by visiting: http://localhost/Search_Engine/search.php
 
 However, if you want to index new content or expand the database:
 
-Full Crawler: Visit http://localhost/search-engine/crawler_full.php to start the automated bot.
+Full Crawler: Visit http://localhost/Search_Engine/crawler_full.php to start the automated bot.
 
-Single Page: Visit http://localhost/search-engine/crawler.php?url=https://el.wikipedia.org/wiki/Programmer to index a specific URL manually.
+Single Page: Visit http://localhost/Search_Engine/crawler.php?url=https://el.wikipedia.org/wiki/Programmer to index a specific URL manually.
 
 ## Project Structure
 search.php - Main search interface and logic.
