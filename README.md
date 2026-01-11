@@ -84,11 +84,11 @@ The provided database is pre-filled with indexed pages, so you can use the appli
 
 ## Main Interfaces:
 
-##🔎︎ Search Engine: http://localhost/Search_Engine/search.php
+## 🔎︎ Search Engine: http://localhost/Search_Engine/search.php
 
-##⚙️ Admin Panel: http://localhost/Search_Engine/admin.php (Password: admin123)
+## ⚙️ Admin Panel: http://localhost/Search_Engine/admin.php (Password: admin123)
 
-##🕷️ Crawler Tools (Optional): If you want to index new content or expand the database:
+## 🕷️ Crawler Tools (Optional): If you want to index new content or expand the database:
 
 ## Full Crawler: Visit http://localhost/Search_Engine/crawler_full.php to start the automated bot.
 
