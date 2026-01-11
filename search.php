@@ -213,7 +213,7 @@ if (isset($_GET['q']) && mb_strlen(trim($_GET['q']), 'UTF-8') >= 1) {
             value="<?php echo htmlspecialchars($queryRaw, ENT_QUOTES, 'UTF-8'); ?>"
             required
         >
-        <button type="submit">🔍</button>
+        <button type="submit">🔍︎</button>
     </form>
 </div>
 
@@ -222,7 +222,7 @@ if (isset($_GET['q']) && mb_strlen(trim($_GET['q']), 'UTF-8') >= 1) {
     
     <div class="search-stats">
         <p>
-            📊 Βρέθηκαν <strong><?php echo $totalResults; ?></strong> αποτελέσματα
+            ၊၊||၊ Βρέθηκαν <strong><?php echo $totalResults; ?></strong> αποτελέσματα
             (Σελίδα <strong><?php echo $currentPage; ?></strong> από <strong><?php echo $totalPages; ?></strong>)
         </p>
     </div>
